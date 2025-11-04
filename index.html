@@ -6,6 +6,8 @@
   <meta name="description" content="BetPuan mobil giriş ile ücretsiz bahis, deneme bonusu ve yüksek oran fırsatlarına hızlıca eriş. Kazanmanın en kolay yolu BetPuan’da!">
   <meta name="keywords" content="mobil bahis, bahis siteleri, güvenilir bahis siteleri, canlı bahis, deneme bonusu, bahis casino, mobil giriş, yüksektir oranlar, betpuan mobil">
   <title>BetPuan Mobil 🎯 Kolay Bahis ve Anında Kazanç 2025</title>
+  <link rel="canonical" href="https://ibetcasino.top" />
+  
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-[#3E4967] text-white font-sans">
@@ -62,18 +64,41 @@
     🎁 BetPuan, <strong>hoş geldin bonusu</strong>, nakit iade fırsatları ve yüksek oranlı bahisleriyle kazancını katlar!
   </p>
 
-  <p class="text-lg font-semibold mt-6">
-    🔗 Resmi BetPuan mobil giriş adresleri:
-  </p>
+<p class="text-lg font-semibold mt-6">
+  🔗 Resmi BetPuan mobil giriş adresleri:
+</p>
 
-  <p class="text-md mt-1">
-    <a href="https://betpuan.co" class="underline hover:text-yellow-300 transition">betpuan.co</a> •
-    <a href="https://betpuanmobil.com" class="underline hover:text-yellow-300 transition">betpuanmobil.com</a> •
-    <a href="https://betpuanuyelik.com" class="underline hover:text-yellow-300 transition">betpuanuyelik.com</a> •
-    <a href="https://girisbetpuan.com" class="underline hover:text-yellow-300 transition">girisbetgiris.com</a> •
-    <a href="https://puanbetgiris.com" class="underline hover:text-yellow-300 transition">puanbetgiris.com</a> ✅
-  </p>
+<p class="text-md mt-1" id="betpuan-mobile-links">
+  <!-- Randomized links will appear here -->
+</p>
 </section>
+
+<script>
+  const links = [
+    { href: "https://betpuan.co", text: "betpuan.co" },
+    { href: "https://betpuanguncelgiris.com", text: "betpuanguncelgiris.com" },
+    { href: "https://betpuanmobil.com", text: "betpuanmobil.com" },
+    { href: "https://betpuanuyelik.com", text: "betpuanuyelik.com" },
+    { href: "https://bonusbetpuan.com", text: "bonusbetpuan.com" },
+    { href: "https://girisbetpuan.com", text: "girisbetpuan.com" },
+    { href: "https://puanbetgiris.com", text: "puanbetgiris.com" }
+  ];
+
+  function shuffle(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+  }
+
+  const container = document.getElementById('betpuan-mobile-links');
+  const shuffled = shuffle([...links]);
+  container.innerHTML = shuffled.map(link =>
+    `<a href="${link.href}" class="underline hover:text-yellow-300 transition" rel="follow">${link.text}</a>`
+  ).join(' • ') + ' ✅';
+</script>
+
 
   <!-- Footer Section -->
   <footer class="bg-[#2C578E] py-10 text-center text-white">
